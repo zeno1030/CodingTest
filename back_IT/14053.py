@@ -36,6 +36,7 @@ while 1:
                 #청소 한 방향이라도 했으면 다음으로 넘어감
                 flag = 1
                 break
+
     if flag == 0: # 4방향 모두 청소가 되어 있을 때,
         if graph[r-dx[d]][c-dy[d]] == 1: #후진했는데 벽
             print(cnt)
