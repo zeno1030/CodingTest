@@ -8,6 +8,7 @@ def solution(h, w, grid):
             path.add((x, y))
             if grid[y][x] == '/':
                 dx, dy = -dy, -dx
+
             elif grid[y][x] == '\\':
                 dx, dy = dy, dx
             x += dx
