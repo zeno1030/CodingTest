@@ -16,6 +16,7 @@ def quadtree(x, arrlist):
     temp += quadtree(half, [l[half:] for l in arrlist[half:]])
     temp += ')'
 
+
     return temp
 
 
