@@ -29,6 +29,7 @@ def solution(p):
     if check(u):
         return u + solution(v)
     else:
+
         answer = '('
         answer += solution(v)
         answer += ')'
