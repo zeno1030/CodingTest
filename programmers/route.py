@@ -32,7 +32,7 @@ def solution(N, a, b):
             if not (b1 < a2 or b2 < a1):  # 두 구간이 겹치는 경우 (수정된 조건)
                 uf.union(i, j)
 
-        # 현재까지 추가된 구간들에서 그룹 개수 계산
+
         group_count = len(set(uf.find(k) for k in range(i + 1)))
         result.append(group_count)
 
