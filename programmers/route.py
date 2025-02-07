@@ -29,7 +29,7 @@ def solution(N, a, b):
         for j in range(i):
             a1, b1 = intervals[i]
             a2, b2 = intervals[j]
-            if not (b1 < a2 or b2 < a1):  # 두 구간이 겹치는 경우 (수정된 조건)
+            if not (b1 < a2 or b2 < a1):
                 uf.union(i, j)
 
 
