@@ -15,4 +15,6 @@ def solution(n, computers):
         if visited[i] == 0:
             dfs(i)
             answer += 1
+
+
     return answer
