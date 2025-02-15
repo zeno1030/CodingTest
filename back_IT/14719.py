@@ -17,4 +17,6 @@ if __name__ == '__main__':
             volume += right_max - height[right]
             right -= 1
 
+
+
     print(volume)
