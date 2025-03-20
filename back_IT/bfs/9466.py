@@ -13,7 +13,6 @@ def bfs(x):
     visited.append(x)
     bfs(arr[x])
 
-
 if __name__ == '__main__':
     T = int(input())
     answer = set()
